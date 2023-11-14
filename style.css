@@ -1,0 +1,175 @@
+/*body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Add styles for question text 
+#quiz-screen #question-text {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Add styles for options container 
+#quiz-screen #options-container {
+    margin-bottom: 20px;
+}
+
+/* Add styles for feedback text 
+#quiz-screen #feedback {
+    margin-top: 10px;
+}
+
+#quiz-screen #timer-container {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    /* Optionally add more styles here */
+
+
+/* Remove the 'hidden' class if it's present
+#timer-container {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+#quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+#question-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#question-text {
+    margin-bottom: 10px;
+}
+#answers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.answer-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#feedback-container {
+    margin-bottom: 10px;
+}
+#timer {
+    margin-bottom: 10px;
+}
+#game-over-container {
+    display: none;
+    text-align: center;
+}
+#initials {
+    width: 50px;
+    text-align: center;
+    margin: 10px 0;
+}
+#restart-btn {
+    background-color: #2ECC71;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+   
+   
+    body {
+        background-color: black;
+        color: white;
+        font-family: 'Arial', sans-serif;
+    }
+    #quiz-container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+    }
+    #question-container {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    #question-text {
+        margin-bottom: 10px;
+    }
+    #answers-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .answer-btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #3498DB;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #feedback-container {
+        margin-bottom: 10px;
+    }
+    #timer {
+        margin-bottom: 10px;
+    }
+    #game-over-container {
+        display: none;
+        text-align: center;
+    }
+    #initials {
+        width: 50px;
+        text-align: center;
+        margin: 10px 0;
+    }
+    #restart-btn {
+        background-color: #2ECC71;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: none; /* Initially hidden */
+    }
